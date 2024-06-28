@@ -1,0 +1,15 @@
+.block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 300px;
+	height: 400px;
+	background-color: #232529b2;
+	border-radius: 10%;
+	
+	img {
+		width: 200px;
+		height: 200px;
+	}
+}

@@ -1,0 +1,29 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	.left{
+		font-size: 30px;
+		font-weight: 700;
+	}
+	.right{
+		display: inline-flex;
+		gap: 20px;
+		
+		
+		button{
+			background: none;
+			border: 3px solid #601065;
+			border-radius: 5px;
+			outline: none;
+			padding: 5px 10px;
+			cursor: pointer;
+			color:white
+		}
+		button:nth-child(2){
+			font-size: 16px;
+		}
+
+	}
+}
